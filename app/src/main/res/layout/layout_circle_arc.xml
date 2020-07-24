@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.vips.circulararcprogressview.CircularArcProgressView
+        android:id="@+id/circularArcProgressView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+
+        app:circleBackgroundColor="#FFFFFF"
+        app:circleStrokeWidth="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:progress="70"
+        app:progressColor="#0B783D"
+        app:strokeColor="#25cd71" />
+
+    <TextView
+        android:id="@+id/percentTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/circularArcProgressView"
+        app:layout_constraintEnd_toEndOf="@+id/circularArcProgressView"
+        app:layout_constraintStart_toStartOf="@+id/circularArcProgressView"
+        app:layout_constraintTop_toTopOf="@+id/circularArcProgressView"
+        tools:text="60%" />
+</androidx.constraintlayout.widget.ConstraintLayout>

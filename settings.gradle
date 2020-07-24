@@ -1,0 +1,3 @@
+include ':circularArcProgressView'
+include ':app'
+rootProject.name = "CircularArcProgressViewDemo"
