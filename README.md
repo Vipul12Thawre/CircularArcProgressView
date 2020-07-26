@@ -59,3 +59,27 @@ implementation 'com.github.Vipul12Thawre:CircularArcProgressView:<latest-version
 - `setProgress(progress:Int)` : set circle progress
 - `setProgressColor(color: Int)` : set progress color
 - `setStrokeColor(color: Int)` : set circle stroke color
+
+# Sample Code
+- MainActivity.kt
+```
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        
+        val circularArcProgressView = findViewById<CircularArcProgressView>(R.id.circularArcProgressView)
+
+        circularArcProgressView.setStrokeColor(ContextCompat.getColor(this, R.color.colorBrown))
+        circularArcProgressView.setCircleBackgroundColor(ContextCompat.getColor(this, R.color.colorWhite))
+        circularArcProgressView.setProgressColor(ContextCompat.getColor(this, R.color.colorBrownFade))
+        circularArcProgressView.setProgress(40)
+        circularArcProgressView.setCircleStrokeWidth(7)
+    }
+    
+ }
+
+
+```
+
