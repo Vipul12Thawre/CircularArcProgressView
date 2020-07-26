@@ -83,3 +83,13 @@ class MainActivity : AppCompatActivity() {
 
 ```
 
+# Social Handles
+> **Vipul Thawre**
+- [Drop Mail](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Sans)
+- [Linkedin](https://www.linkedin.com/in/vipulthawre/)
+- [Facebook](https://www.facebook.com/vIps.9665718634.hAcKbOoK/)
+- [Instagram](https://www.instagram.com/vipul_the_muscle_dev/)
+- [Twitter](https://twitter.com/vipul12thawre)
+
+
+## _**Keep Coding 🤘**_
