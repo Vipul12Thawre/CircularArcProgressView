@@ -1,5 +1,5 @@
 # CircularArcProgressViewDemo
- The custom circular view to show progress in the form of pie-circle
+ The custom circular view to show progress in the form of pie-circle 🟢
  
  [![](https://jitpack.io/v/Vipul12Thawre/CircularArcProgressView.svg)](https://jitpack.io/#Vipul12Thawre/CircularArcProgressView)
  
