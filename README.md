@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
 
 # Social Handles
 > **Vipul Thawre**
-- [Drop Mail](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Sans)
+- [Drop Mail](mailto:rahul12thawre@gmail.com?subject=[GitHub]%20CirclularArcProgressView)
 - [Linkedin](https://www.linkedin.com/in/vipulthawre/)
 - [Facebook](https://www.facebook.com/vIps.9665718634.hAcKbOoK/)
 - [Instagram](https://www.instagram.com/vipul_the_muscle_dev/)
