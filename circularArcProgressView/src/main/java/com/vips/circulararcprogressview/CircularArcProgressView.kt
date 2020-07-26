@@ -147,4 +147,14 @@ class CircularArcProgressView(context: Context?, attrs: AttributeSet) : View(con
         this.progress = progress
         invalidate()
     }
+
+    fun setCircleBackgroundColor(color: Int) {
+        this.circleBgColor = color
+        invalidate()
+    }
+
+    fun setCircleStrokeWidth(width: Int) {
+        this.strokeWidth = width
+        invalidate()
+    }
 }
